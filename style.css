@@ -1,0 +1,82 @@
+body{
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: .5rem;
+}
+[class^="col"]{
+  padding: 0 .5rem;
+}
+.row {
+  display: flex;
+  gap: .5rem;
+  flex-wrap: wrap;
+}
+.col {
+  flex: 1 1 0;
+}
+.col-1 {
+  flex: 0 0 8.333333%;
+}
+.col-2 {
+  flex: 0 0 16.666666%;
+}
+.col-3 {
+  flex: 0 0 25%;
+}
+.col-4 {
+  flex: 0 0 33.333333%;
+}
+.col-5 {
+  flex: 0 0 41.666666%;
+}
+.col-6 {
+  flex: 0 0 50%;
+}
+.col-7 {
+  flex: 0 0 58.333333%;
+}
+.col-8 {
+  flex: 0 0 66.666667%;
+}
+.col-9 {
+  flex: 0 0 75%;
+}
+.col-10 {
+  flex: 0 0 83.333333%;
+}
+.col-11 {
+  flex: 0 0 91.666667%;
+}
+.col-12 {
+  flex: 0 0 100%;
+}
+span{
+  border: 2px solid pink;
+  border-radius: 20px;
+  box-shadow: 0 0 10px black;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+  background-color: white;
+}
+.third{
+  border: 2px solid gray;
+  border-radius: 20px;
+  box-shadow: 0 0 10px black;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: rgb(255, 255, 255);
+}
+.end{
+  background-color: gray;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: white;
+}
